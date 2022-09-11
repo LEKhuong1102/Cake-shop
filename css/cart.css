@@ -1,0 +1,145 @@
+
+body {
+    margin: 0;
+}
+
+#header {
+    width: 100%;
+    height: 75px;
+    background-color: #434552;
+    color: #fff;
+    display: flex;
+    position: relative;
+    border-bottom: 2px solid #d90429;
+}
+.shopping {
+    position: absolute;
+    right: 4%;
+    top: 45%;
+    transform: translateY(-50%);
+}
+.shopping a{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #fff;
+    margin: 20px;
+    display: flex;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 300;
+}
+.shopping i {
+    font-size: 18px;
+
+}
+.shopping i:nth-child(1) {
+    margin-right: 4px;
+    color: #d90429;
+}
+.nav-bar {
+    display: flex;
+}
+#logo {
+    display: flex;
+    align-items: center;
+}
+#dot {
+    width: 10px;
+    height: 10px;
+    background-color: #ca0526;
+    border-radius: 50%; 
+    transform: translate(65%, 40%);
+    margin-top: 3px;
+    margin-left: -3px;
+}
+#logo a{
+    font-size: 25px;
+    font-family: "Lucida Handwriting", "Lucida Calligraphy", cursive;
+    font-weight: 900;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+}
+.table th {
+    opacity: .9;
+}
+.table img {
+    width: 110px;
+    height: auto;
+}
+
+.clean, .buy, .deleteProduct {
+    border: none;
+    background-color: #ffc107;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 14px;
+    cursor: pointer;
+}
+.deleteProduct {
+    background-color: rgb(59, 134, 231);
+}
+.buy {
+    background-color: #28a745;
+}
+
+.active {
+    animation: click .3s linear;
+    /* transition: animation ; */
+}
+
+@keyframes click {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.95);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#formSubmit{
+    display: none;
+    transition: all .5s linear;
+}
+
+
+.susscess {
+    width: 50%;
+    height: 40%;
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+#susscess {
+    display: none;
+}
+.susscess input {
+    width: 85px;
+    height: 40px;
+    background-color: #28a745;
+    border: none;
+    cursor: pointer;
+    margin-top: 18px;
+}
+.drakMode {
+    background-color: #333;
+    opacity: .3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}

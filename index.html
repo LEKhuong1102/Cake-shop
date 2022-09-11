@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/cake1.png" type="image/x-icon">
+    <link rel="stylesheet" href="font/PlayfairDisplay-Regular.ttf">
+    <link rel="stylesheet" href="vendor/fontawesome/fontawesome/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>CAKE Shop</title>
+</head>
+<body onload="getData()">
+    <!-- Thanh nav-bar-->
+    <nav class="nav-bar">
+            <div class="logo">
+                <a href="index.html">Cupcake Shop </a>
+                <i id="dot"></i>
+            </div>
+        <!-- NAV-pc -->
+        <div class="menu hover">
+            <ul>
+                <li class="home"><a  href="#home">HOME</a></li>
+                <li class="about"><a  href="#about">ABOUT</a></li>
+                <li class="shop"><a  href="#shop">SHOP</a></li>
+                <li class="contact"><a href="#contact">CONTACT</a></li>
+                <div class="line"></div>
+            </ul>
+            <div class="shopping">
+                <a href="cart.html">
+                    <i class="fas fa-shopping-cart"></i> 
+                    <i>Cart</i>
+                    <i id="quantityItem"></i>
+                </a>
+            </div>
+            <div class="login">
+                <a href="login.html">
+                <i class="fas fa-user"></i>
+                <i>Login</i>
+                </a>
+            </div>
+        </div>
+         <!-- NAV-mobile -->
+        <div class="nav">
+            <label for="nav-mobile-input" class="nav-bar-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <input type="checkbox" hidden name="" class="nav__input" id="nav-mobile-input">
+            <label for="nav-mobile-input"   class="over"></label>
+            <div class="nav-mobile hover">
+                <div class="shopping mobile">
+                    <a href=""><i class="fas fa-shopping-cart"></i> Cart </a>
+                </div>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SHOP</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+                <label for="nav-mobile-input" class="exit">
+                    <i class="fas fa-times"></i>
+                </label>
+            </div>
+        </div>
+    </nav>
+    <!-- LAYOUT 1 -->
+    <div id="home" class="layout1 currentPage">
+        <div class="content">
+            <h5>POMPEO POTTERY</h5>
+            <div class="l1-h1">
+                <div style="display: flex;"> 
+                    <h1>Unique Porcelain </h1> <p>&</p>
+                </div>
+            </div>  
+            <h1>Stone Collection</h1>
+            <p>Unique & moderm pottery made by our master in porcelain & Stones  </p>
+            <form>
+                <button type="button">SHOP COLLECTION</button>
+            </form>
+        </div>
+        <div>
+            
+        </div>
+        
+    </div>
+    <!-- LAYOUT 2 -->
+    <div id="about" class="layout2 currentPage">
+        <div class="l2-content1">
+            <h5>PRODUCT CATEGORIES</h5>
+            <div class="l1-h1 l2">
+                <h1>Porcelain</h1> <p>&</p>  <h1>Pottery</h1>
+            </div>  
+        </div>
+        <div id="layout2" class="l2-content2">
+            <div class="circle c1">
+                <img id="img1" src="./img/carousel/view1.png" alt=""><p>VASES</p>
+            </div>
+            <div class="circle c2">
+                <img src="./img/carousel/view2.png" alt=""><P>MUGS</P>
+            </div>
+            <div class="circle c3">
+                <img  src="./img/carousel/view3.png" alt=""> <P>PLATES</P>
+            </div>
+        </div>
+        <div id="content3" class="l2-content3">
+            <div class="l2-content3-1 noidung">
+                <h4>Hand Grafted <br>
+                    Pottery since 1990
+                </h4>
+                <p>Loremipsum dolor sit amet,consectetur adipiscing elit. Suspendisse varius
+                    enimineros elementum. Duiscursus, mi quis vierraornare,eros dolor
+                    interdum nula, ut commodo diam ibero vitae erat. Aenean faucibus ibh etsto cursus ldrutrum loremimperdiet. Nunc ut sem vita risus posuere.</p>
+            </div>
+            <div class="l2-content3-2 noidung">
+                <h4>We Provide Premium <br>
+                    Pottery Produts</h4>
+                <p>
+                    Loremipsum dolor sit amet,consecteturadipiscing elt. Suspendisse varius
+                    tenimineros elementum. Dulscursus, mi quis viverra ornare,eros dolor
+                    Interdum nula, ut commodo diam libero vitae erat.Aenean faucibusnibh et
+                    Justo cursus d rutrumloremmimperdiet. Nunc ut sem viae rieus posuere.</p>
+            </div>
+        </div>
+    </div>
+    <!-- LAYOUT 3 -->
+    <div class="layout3">
+        <div class="l3-content1">
+            <div class="l3-noidung1">
+                <img class="img1" width="300px" src="./img/cake1.png" />
+                <div></div>
+            </div>
+            <div class="l3-noidung2">
+                <h4>Gold & Black Pottery</h4>
+                <p>Loremipsum dolor sit amet,consectetur adipiscing elit. Suspendisse varius
+                    enimineros elementum. Duiscursus, mi quis vierraornare,eros dolor
+                    interdum nula, ut commodo diam ibero vitae erat. Aenean faucibus ibh etsto cursus ldrutrum loremimperdiet. Nunc ut sem vita risus posuere.</p>
+                <h5>View Details</h5>
+            </div>
+        </div>
+        <div class="l3-content2">
+            <div id="part2-2" class="l3-noidung2">
+                <h4>Gold & Black Pottery</h4>
+                <p>Loremipsum dolor sit amet,consectetur adipiscing elit. Suspendisse varius
+                    enimineros elementum. Duiscursus, mi quis vierraornare,eros dolor
+                    interdum nula, ut commodo diam ibero vitae erat. Aenean faucibus ibh etsto cursus ldrutrum loremimperdiet. Nunc ut sem vita risus posuere.</p>
+                <h5>View Details</h5>
+            </div>
+            <div id="part2-1" class="l3-noidung1" >
+                <img class="img2" width="300px" src="./img/cake2.png" />
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <!-- LAYOUT 4 -->
+    <div id="added">
+        
+    </div>
+    <div id="shop" class="layout4 currentPage">
+        <div class="l4-content1">
+            <h5>OUR ONLINE STORE</h5>
+            <H2>Pottery Collection</H2>
+        </div>
+        <div id="products" class="l4-content2">
+           
+        </div>
+       
+            
+        <div class="l4-content3">
+            <form action="">
+                <button type="button">VIEW ALL PRODUCT</button>
+            </form>
+        </div>
+    </div>
+    <!-- LAYOUT 5 -->
+    <div class="layout5">
+        <div class="l5-content">
+            <div>
+                <h5>POMPEO POTERY</h5>
+                <h1>Ready to srart shopping?</h1>
+                <p>Loremipsum dolor sit amet, <u style="color: #ab1212;">consectetur adipiscing elit.</u> Suspendisse varius enimineros elementum.</p>
+                <div class="newbutton">
+                    <form action="">
+                        <button type="button">NEW COLLECTION</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- LAYOUT 6 -->
+    <div id="contact" class="layout6 currentPage">
+        <div class="l6-content1">
+            <div class="icon"><i class="far fa-paper-plane"></i></div>
+            <h5>LATEST NEW</h5>
+        </div>
+        <div class="l6-content2">
+            <div class="l6-noidung">
+                <h1>Latest New</h1><p>&amp;</p><h1>New Update</h1>
+            </div>
+        </div>
+        <div class="l6-content3">
+            <form action="">
+                <div>
+                    <input type="text" placeholder="Enter your email">
+                    <button type="button">SUBSCRIBE</button> <br>
+                    <i class="far fa-envelope"></i>
+                </div>
+                
+                <input type="checkbox" id="check" value="true"><label for="check">Sign Up for our newwsletter</label>                
+            </form>
+        </div>
+    </div>
+    <!-- LAYOUT 7 -->
+    <div class="layout7">
+        <div class="l7-content1">
+            <div class="logo logo2">Pompeo</div>
+            <p>I have always striven to fix beauty in wood, stone, glass or pottery, that has been my creed</p>
+        </div>
+        <div class="l7-content2">
+            <div class="l7-noidung">
+                <i class="far fa-envelope"></i>
+                <h5>EMAIL</h5>
+                <P>pompeopotery@gmail.com</P>
+            </div>
+            <div class="l7-noidung">
+                <i class="fas fa-map-marker-alt"></i>
+                <h5>FIND</h5>
+                <P>Center Park, Manhattan New York, 1011</P>
+            </div>
+            <div class="l7-noidung">
+                <i class="fas fa-phone-volume"></i>
+                <h5>CALL</h5>
+                <P>+1 292 345 678</P>
+            </div>
+        </div>
+        <div class="l7-content3">
+            <p>Template design by <b>Dorian Hoxha - Image Licence Info</b>Powered by <b>Webflow</b> </p>
+            <div>
+                <i class="fab fa-wikipedia-w"></i>
+                <p><b>Made in Webflow</b></p>
+            </div>
+        </div>
+        <!-- LÊ KHƯƠNG -->
+        <div class="gotoTop" onclick="gotoTop()">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+    </div>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

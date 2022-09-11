@@ -1,0 +1,63 @@
+[
+    {
+        "name": "Cup Cake Chocola",
+        "price": 2,
+        "image": "./img/cupcake1.jpg"
+    },
+    {
+        "name": "Cup Cake Cream",
+        "price": 3,
+        "image": "./img/cupcake2.jpg"
+    },
+    {
+        "name": "Cup Cake Sugar",
+        "price": 3,
+        "image": "./img/cupcake3.jpg"
+    },
+    {
+        "name": "Cup Cake Ice",
+        "price": 4,
+        "image": "./img/cupcake4.jpg"
+    },
+    {
+        "name": "Cup Cake Almond",
+        "price": 1.5,
+        "image": "./img/cupcake5.jpg"
+    },
+    {
+        "name": "Cup Cake Cone",
+        "price": 2.7,
+        "image": "./img/cupcake6.jpg"
+    },
+    {
+        "name": "Cup Cake Banana",
+        "price": 2.9,
+        "image": "./img/cupcake7.jpg"
+    },
+    {
+        "name": "Cup Cake Carrot",
+        "price": 3.2,
+        "image": "./img/cupcake8.jpg"
+    },
+    {
+        "name": "Cup Cake Fruit",
+        "price": 2.3,
+        "image": "./img/cupcake9.jpg"
+    },
+    {
+        "name": "Cup Cake Cherry",
+        "price": 1.5,
+        "image": "./img/cupcake10.jpg"
+    },
+    {
+        "name": "Cup Cake Blueberry",
+        "price": 2.5,
+        "image": "./img/cupcake11.jpg"
+    },
+    {
+        "name": "Cup Cake Butter",
+        "price": 2,
+        "image": "./img/cupcake12.jpg"
+    }
+
+]
